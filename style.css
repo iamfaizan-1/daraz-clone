@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --primary: #F85606;
+}
+
+.navbar{
+    background-color: var(--primary);
+    padding: 35px 50px;
+}
+
+.icon{
+    color: var(--primary) ;
+    background-color: #FFE1D2;
+    padding: 8px;
+height: 40px;
+  
+    width: 50px !important;
+    
+}
+
+.search{
+    display: flex;
+    justify-content: start;
+    width: 70%;
+    align-items: center;
+}
+
+.searchinput{
+    width: 600px;
+    padding: 8px 8px;
+    border: none
+}
+
+.icon2{
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    .search{
+        display: none;
+    }
+}
