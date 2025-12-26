@@ -9,7 +9,7 @@
 
 .navbar{
     background-color: var(--primary);
-    padding: 35px 50px;
+    padding: 0px 50px 35px 50px;
 }
 
 .icon{
@@ -32,7 +32,8 @@ height: 40px;
 .searchinput{
     width: 600px;
     padding: 8px 8px;
-    border: none
+    border: none;
+    border-radius: 2px;
 }
 
 .icon2{
@@ -40,9 +41,25 @@ height: 40px;
     font-size: 40px;
 }
 
+/* nav1 */
 
+.nav1{
+    background-color: var(--primary);
+    color: white;
+    font-size: 12px;
+}
 
+.nav1 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+   
+}
 
+.nav1list{
+    display: flex;
+    justify-content: end;
+}
 
 @media (max-width: 768px) {
     
