@@ -61,6 +61,47 @@ height: 40px;
     justify-content: end;
 }
 
+
+/* carousel */
+/* .myicon{
+    color: black !important;
+} */
+
+.carousel-control-prev i{
+    font-size: 15px;
+    color: white;
+  
+   padding-bottom: 4px;
+   padding-top: 4px;
+   
+}
+.carousel-control-next{
+     font-size: 15px;
+    color: white;
+  
+   padding-bottom: 4px;
+   padding-top: 4px;
+}
+.myicon{
+      background-color: black;
+    padding: 4px;
+     border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+
+}
+
+
+
 @media (max-width: 768px) {
     
     .search{
