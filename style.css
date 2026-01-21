@@ -5,6 +5,10 @@
 
 :root{
     --primary: #F85606;
+    --heading: #424242;
+}
+body{
+     background-color: #f2eded;
 }
 
 .navbar{
@@ -12,6 +16,20 @@
     padding: 0px 50px 35px 50px;
 }
 
+h3{
+    font-size: 16px;
+    color: var(--primary);
+    font-weight: 0.8em;
+}
+
+h2{
+    font-size: 23px;
+    color: var(--heading);
+}
+h5{
+    color: var(--primary);
+    font-weight: 450;
+}
 .icon{
     color: var(--primary) ;
     background-color: #FFE1D2;
@@ -98,6 +116,24 @@ height: 40px;
   height: 12px;
   border-radius: 50%;
 
+}
+
+
+/* sale */
+
+.firstCard{
+    margin-left: 1px;
+      margin-right: 1px;
+}
+.headSec{
+    border-bottom: 1px solid rgb(188, 185, 185);
+}
+
+.myBtn{
+    color: var(--primary);
+    padding: 5px 20px;
+    background-color: white !important;
+    border: 1px solid var(--primary);
 }
 
 
