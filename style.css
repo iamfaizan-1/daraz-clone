@@ -55,6 +55,10 @@ height: 40px;
     border-radius: 2px;
 }
 
+.searchinput:focus{
+    outline: none;
+}
+
 .icon2{
     color: white;
     font-size: 40px;
@@ -235,9 +239,15 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+@media (max-width:576px) {
 
-@media (min-width:576px) and (max-width:768px) {
-
-   
-    
+    .nav1list{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 }
