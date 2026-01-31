@@ -6,6 +6,7 @@
 :root{
     --primary: #F85606;
     --heading: #424242;
+    --border-color:rgb(188, 185, 185);
 }
 body{
      background-color: #f2eded;
@@ -16,13 +17,13 @@ body{
     padding: 0px 50px 35px 50px;
 }
 
-h3{
+h4{
     font-size: 16px;
     color: var(--primary);
     font-weight: 0.8em;
 }
 
-h2{
+h3{
     font-size: 23px;
     color: var(--heading);
 }
@@ -126,7 +127,7 @@ height: 40px;
       margin-right: 1px;
 }
 .headSec{
-    border-bottom: 1px solid rgb(188, 185, 185);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .myBtn{
@@ -138,9 +139,90 @@ height: 40px;
 
 
 
+/* category section */
+
+
+.category-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 1px ;
+    background-color: white;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.category-img{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.category-img{
+    margin-bottom: 10px;
+}
+.category-para{
+    text-align: center;
+}
+.category-head{
+   
+}
+.category-card1{
+    margin-bottom: 20px;
+}
+
+
+
+.category-cont{
+    background-color: #f2eded !important;
+}
+
+
+/* foryou cards */
+
+
+.foryou-cards{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+}
+
+.for-card1{
+    padding-left: 10px;
+}
+
+.cardImg{
+    margin-bottom: 5px;
+}
+
+
+
 @media (max-width: 768px) {
     
     .search{
         display: none;
     }
+
+     .category-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .foryou-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .category-cards{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .foryou-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+
+   
+    
 }
